@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MRS-F3-Mod-Test</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+
+        <div id="before-load">
+            <p class="ip-class">MY Public IP ADDRESS :</p>
+            <button onclick="btnClicked()">Get Data</button>
+        </div>
+
+        <div id="after-load">
+
+        </div>
+
+    </div>
+
+    <div id="post-offices">
+        <input type="text" class="fontAwesome" id="input" placeholder="Filter" onkeyup="inputChanged()">
+        <div id="card-container">
+
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    </script>
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
